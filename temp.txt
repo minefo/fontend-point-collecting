@@ -1,0 +1,2 @@
+1,谷歌系统 只要兼容到4.4就可以了
+https://developer.android.com/about/dashboards/index.html?hl=zh-cn

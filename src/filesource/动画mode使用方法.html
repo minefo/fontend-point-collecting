@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>第一个页面</title>
+		<style type="text/css">
+			.parent {
+				width: 800px;
+				height: 20000px;
+				border:1px solid red;
+				overflow: scroll;
+			}
+			.sub {
+				height:1000px;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div id="list-demo" class="demo">
+			 <transition name="component-fade" mode="out-in">
+				  <component v-bind:is="view"></component>
+			</transition>
+       </div>
+    
+		<script src="vue.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+		     Vue.component('blog-post',{
+		     	    myp:"哈哈哈哈",
+	                props: ['name','sex'],
+	                data(){
+	                	return {
+	                		
+	                	}
+	                },
+	                methods:{
+	                	myClick:function(){
+	                		console.log("里面点击了2");
+	                		this.$emit("click")
+	                	}
+	                },
+	                created:function(){
+	                	
+	                },
+	                mounted:function(){
+	                	
+					},
+	               
+	            });
+		     
+		   
+		     
+			new Vue({
+			  el: '#list-demo',
+			  data: {
+			    view: 'v-a'
+			  },
+			  mounted:function(){
+			  	 setInterval(function(){
+			  	 	 console.log(this.view);
+			  	 	 if(this.view=='v-a'){
+			  	 	 	this.view='v-b'
+			  	 	 }
+			  	 	 else if(this.view=='v-b'){
+			  	 	 	this.view='v-a'
+			  	 	 }
+			  	 }.bind(this),3000)
+			  },
+			  components: {
+			    'v-a': {
+			      template: '<div>Component A</div>'
+			    },
+			    'v-b': {
+			      template: '<div>Component B</div>'
+			    }
+			  }
+			})
+			
+			
+		</script>
+		
+		<style scoped>
+			.component-fade-enter-active, .component-fade-leave-active {
+			  transition: opacity .3s ease;
+			}
+			.component-fade-enter, .component-fade-leave-to
+			/* .component-fade-leave-active for below version 2.1.8 */ {
+			  opacity: 0;
+			}
+		</style>
+		
+	</body>
+</html>
