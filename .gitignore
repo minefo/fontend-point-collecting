@@ -1,0 +1,12 @@
+/node_modules/*
+dist
+.idea
+npm-debug.log
+stats.json
+/src/components/chapter1/section5.vue
+/src/components/chapter1/section7.vue
+.DS_Store
+node_modules/
+src/.DS_Store
+src/components/.DS_Store
+src/components/chapter2/.DS_Store

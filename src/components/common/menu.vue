@@ -13,7 +13,7 @@
                     <span :title="item.labelName">{{item.labelName}}</span>
                 </template>
                 <el-menu-item :index="subItem.action" v-for="(subItem,subIdx) in item.children">
-                    <router-link :to="{ subItem.action}" :title="subItem.labelName"> <i class="el-icon-setting"></i>{{subItem.labelName}}</router-link>
+                    <router-link :to="subItem.action" :title="subItem.labelName"> <i class="el-icon-setting"></i>{{subItem.labelName}}</router-link>
                 </el-menu-item>
             </el-submenu>
     </el-menu>
@@ -66,7 +66,7 @@
                     "children":[],
                 },
                 {
-                    "labelName": "面试",
+                    "labelName": "face",
                     "action": "/chapter1-section10",
                     "children":[],
                 },
