@@ -75,6 +75,11 @@
                     "action": "/chapter1-section11",
                     "children":[],
                 },
+                {
+                    "labelName": "company-knowlege",
+                    "action": "/chapter1-section12",
+                    "children":[],
+                },
             ]
         },
         {
@@ -149,6 +154,11 @@
                 {
                     "labelName": "jquery用法",
                     "action": "/chapter2-section14",
+                    "children": [],
+                },
+                {
+                    "labelName": "react",
+                    "action": "/chapter2-section15",
                     "children": [],
                 }
             ]

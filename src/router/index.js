@@ -103,6 +103,13 @@ export default new Router({
                         require(['@/components/chapter1/section11'], resolve);
                     },
                 },//第11节
+                {
+                    path: '/chapter1-section12',
+                    name:"company-knowlege",
+                    component: function (resolve) {
+                        require(['@/components/chapter1/section12'], resolve);
+                    },
+                },//第12节
 
             ]
         }, //第一章
@@ -216,6 +223,13 @@ export default new Router({
                         require(['@/components/chapter2/section14'], resolve);
                     },
                 },//第14节jQuery
+                {
+                    path: '/chapter2-section15',
+                    name:"jQuery",
+                    component: function (resolve) {
+                        require(['@/components/chapter2/section15'], resolve);
+                    },
+                },//第15节react
 
             ]
         }, //JAVASCRIPT

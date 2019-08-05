@@ -463,8 +463,8 @@
                         event.preventDefault();
                     });
                </textarea>
-            18.如何居中div？如何居中一个浮动元素？如何让绝对定位的div居中？
-                vertical-middle只支持行内对齐，和单元格内容居中对齐
+            18.如何居中div？如何一个浮动元素？如何让绝对定位的div居中？
+                vertical-middle只支持行内对齐，和单元格居中内容居中对齐
             19.flexbox布局  参考flex-demo.rar http://static.vgee.cn/static/index.html
                 <textarea>
                     .parent {

@@ -10,7 +10,13 @@
                 </p>
                 <p>
                     常用的快捷键:<br/>
-                    1.用四根手指向下轻扫，可查看正在使用的应用的所有窗口。
+                    1.用四根手指向上轻扫，可查看所有窗口。
+                    2.查看隐藏文件快捷键 Command + Shift + .
+                    3不想在chrome里使用双指前进后退页面的功能
+                    命令行下执行 然后重启浏览器
+                    defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool FALSE
+
+
                 </p>
             </div>
         </div>
