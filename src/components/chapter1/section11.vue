@@ -40,6 +40,12 @@
                 3 A收到B发送的信息，把该信息用相同的摘要算法生成一个摘要，然后用B的公钥解密A发送过来的摘要，得到一个明文摘要，对比这个明文摘要和B生成的摘要，如果相同说明该信息是B发送的并且该信息没有被篡改过
             11.区块链手续费0.0001-0.0015 一个块包含2000笔
             12.比特币源码地址 https://github.com/bitcoin/bitcoin/tree/master/src
+            13.资料网站 https://www.8btc.com/book
+            14.公链，私链，联盟链，侧链 https://zhuanlan.zhihu.com/p/36309354
+        </div></div>
+
+        <div class="segment-wraper"><h1 class="segment-title">火币:</h1><div class="segment-content">
+            1.
         </div></div>
 
     </div>

@@ -110,6 +110,13 @@ export default new Router({
                         require(['@/components/chapter1/section12'], resolve);
                     },
                 },//第12节
+                {
+                    path: '/chapter1-section13',
+                    name:"Electron",
+                    component: function (resolve) {
+                        require(['@/components/chapter1/section13'], resolve);
+                    },
+                },//第13节
 
             ]
         }, //第一章
