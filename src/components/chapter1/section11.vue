@@ -42,10 +42,46 @@
             12.比特币源码地址 https://github.com/bitcoin/bitcoin/tree/master/src
             13.资料网站 https://www.8btc.com/book
             14.公链，私链，联盟链，侧链 https://zhuanlan.zhihu.com/p/36309354
+            15.btc钱包备份
+             I.每发送了100次比特币给其它地址或者使用了100个不同的地址接收比特币后，请重新备份钱包，否则后面交易退回的和接收到的比特币会永久丢失
+             II.松散密钥钱包
+                松散密钥钱包也叫密钥串（JBOK）, 这种形式的钱包源自于比特币内核客户端，目前已被遗弃不用。比特币内核客户端钱包会通过伪随机数生成器（PRNG）创建100个私钥/公钥对，以备后用。
+                这些私钥储存在一个虚拟的“密钥池”，当之前的密钥被使用后，它会生成新的密钥对，这样确保密钥池维持有100个未被使用的密钥。（如果钱包被加密，新的密钥只有在被解锁后才可以生成新的密钥）
+                考虑到不得不手动备份新生成的私钥，这会对保存密钥带来相对大的困难。如果新的密钥生成后，被用掉，但在备份前丢失了，那么里面的比特币就永远丢失了。很多老式的移动钱包则使用一个简单的格式，它们仅当用户需要的时候，才生成一个新的私钥。
+                 因为备份太繁琐，这类钱包正逐步被淘汰，也不鼓励大家使用。
+
         </div></div>
 
         <div class="segment-wraper"><h1 class="segment-title">火币:</h1><div class="segment-content">
             1.
+        </div></div>
+
+        <div class="segment-wraper"><h1 class="segment-title">以太坊:</h1><div class="segment-content">
+            1.以太坊白皮书 https://github.com/ethereum/wiki/wiki/%5B%E4%B8%AD%E6%96%87%5D-%E4%BB%A5%E5%A4%AA%E5%9D%8A%E7%99%BD%E7%9A%AE%E4%B9%A6
+            2.发行以太币https://blog.csdn.net/JAVA_HHHH/article/details/79771752
+            3.以太币编程语言 https://solidity-cn.readthedocs.io/zh/develop/introduction-to-smart-contracts.html
+            4.BIP39 助记词
+            5.以太坊钱包官方下载 https://ethfans.org/wikis/%E4%BB%A5%E5%A4%AA%E5%9D%8A%E9%92%B1%E5%8C%85-Mist-%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B
+            6.以太币挖矿软件 https://www.f2pool.com/
+            7.以太坊节点
+               I.官方查看以太坊全节点数
+                 https://ethernodes.org/network/1
+               II.官方查看比特币全节点数
+                 bitnodes.earn.com
+               III.下周继续以太坊知识
+                    https://lilymoana.github.io/ethereum_theory.html
+               IV.由于运行全节点的成本高昂，很多节点选择做“轻节点”，即不储存完整的区块链数据。
+                举个例子，目前可在手机端运行的钱包软件，基本都是“轻钱包”，属于“轻节点”。轻钱包会对数据进行分析，仅获取并在本地储存与自身相关的交易数据。当
+                然了，轻钱包运行时还是要依赖其他全节点。
+                需要说明的是，独立的矿工需要运行全节点，但是加入矿池中矿工，不一定需要自己运行全节点。
+
+
+
+        </div></div>
+
+        <div class="segment-wraper"><h1 class="segment-title">nodejs开发数字货币</h1><div class="segment-content">
+            1.官网地址https://funnelgarden.com/blockchain-cryptocurrency-typescript/
+            2.github地址  https://github.com/gomisha/blockchain
         </div></div>
 
     </div>
