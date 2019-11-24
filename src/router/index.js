@@ -22,6 +22,13 @@ export default new Router({
              ]
         },
         {
+            name:"火币费率计算",
+            path: '/vote',
+            component: function (resolve) {
+                require(['@/components/vote'], resolve);
+            }
+        },
+        {
             path: '/',
             name:"工具汇集",
             component : PageCommon,
