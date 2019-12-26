@@ -22,6 +22,13 @@ export default new Router({
              ]
         },
         {
+            path: '/login',
+            name:"登录",
+            component: function (resolve) {
+                require(['@/components/login'], resolve);
+            }
+        },
+        {
             path: '/',
             name:"工具汇集",
             component : PageCommon,

@@ -62,7 +62,21 @@
         </div></div>
 
         <div class="segment-wraper"><h1 class="segment-title">火币:</h1><div class="segment-content">
-            1.
+            1.计算收益率
+            已实现盈亏=（平仓张数*每张面值）/持仓均价—（平仓张数*每张面值）/当前市场价（开多）
+            已实现盈亏=（平仓张数*每张面值）/当前市场价—（平仓张数*每张面值）/持仓均价（开空）
+            2.均价 100*(1+1)/(100/1000+100/2000)
+
+        </div></div>
+
+        <div class="segment-wraper"><h1 class="segment-title">策略:</h1><div class="segment-content">
+            1.2019-10-30-至今
+              开多：
+              8200以下开多 8250为平仓点 开6张 15递增,强平率-1.6 8300数组多 (爆仓7200)
+              开空
+              8100以上开空 8050为平仓点 开6张 15递增,强平率-1.9 8000数组空 （爆仓9000）
+
+
         </div></div>
 
         <div class="segment-wraper"><h1 class="segment-title">以太坊:</h1><div class="segment-content">
