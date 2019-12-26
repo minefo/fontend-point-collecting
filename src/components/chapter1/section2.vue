@@ -51,6 +51,14 @@
                      defaults write com.apple.finder AppleShowAllFiles -bool FALSE <br/>
 
                      注：重启Finder的方法：按住option+command，dock上右键->“Relanch”/“重新开启”。
+
+                    或者
+                    1、显示Mac隐藏文件的命令：
+                    defaults write com.apple.finder AppleShowAllFiles YES
+                    2、隐藏Mac隐藏文件的命令：
+                    defaults write com.apple.finder AppleShowAllFiles NO
+
+                    重启Finder：鼠标单击窗口左上角的苹果标志-->强制退出-->Finder-->重新启动
                  </p>
             </div>
         </div>

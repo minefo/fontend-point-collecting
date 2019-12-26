@@ -22,10 +22,10 @@ export default new Router({
              ]
         },
         {
-            path: '/login',
-            name:"登录",
+            name:"火币费率计算",
+            path: '/vote',
             component: function (resolve) {
-                require(['@/components/login'], resolve);
+                require(['@/components/vote'], resolve);
             }
         },
         {
