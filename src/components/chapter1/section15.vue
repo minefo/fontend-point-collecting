@@ -12,25 +12,9 @@
         <div class="segment-wraper"><h1 class="segment-title"></h1><div class="segment-content"></div></div>
         <div class="segment-wraper"><h1 class="segment-title"></h1><div class="segment-content"></div></div>
 
-        <div class="segment-wraper"><h1>视频制作相关知识点总结:</h1><div class="summary">
-            1.直播平台分析 http://www.baidulook.com/html/cbgw/230.html
-            2.短视频收益 https://zhuanlan.zhihu.com/p/28273128
-            3.
-        </div></div>
-
-        <div class="segment-wraper"><h1>视频制作相关知识点总结:</h1><div class="summary">
-            1.背景音乐免费网站 https://freepd.com/
-            2.http://www.aigei.com/
-
-        </div></div>
-
-
-
-        <div class="segment-wraper"><h1>本节总结:</h1><div class="summary">
-            1.目前长沙一般主要有三种获得购房资格的方案:1.不落户两年社保;2.落户后一年社保;3.落户后无社保，两年后也可以。
-            这三种是常见的拥有购房资格的方式。你看哪种方式合适了，主要就是落户、交社保了
-            2.工资一万左右
-            3.
+        <div class="segment-wraper"><h1>reactnatve:</h1><div class="summary">
+            1.切换 rvm source ~/.rvm/scripts/rvm
+            2.#  use_native_modules! 可以注释掉，然后手动添加模块
         </div></div>
 
     </div>

@@ -132,9 +132,8 @@
                 1.查当前用户名 git config user.name
                 2.添加远程一个链接 git remote add origin https://github.com/chenxvhua/pure-vue.git
                 3. git remote -v
-
-
-
+                4.推送tag 命令
+                  git push --tags
 
             </div>
             </div>
