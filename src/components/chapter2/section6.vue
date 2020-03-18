@@ -181,7 +181,8 @@
             <div class="segment-wraper"><h1 class="segment-title">node多版本处理</h1><div class="segment-content">
                 1.安装nvm  资源mutlNode.rar
                     I. nvm list 查看所有node
-                    II.nvm use node-v 使用哪个node
+                    II.nvm use node-v 使用哪个node   nvm alias default 0.12.7
+
                     III.如果发现好多包安装不了使用 .npmrc
                             phantomjs_cdnurl=http://cnpmjs.org/downloads
                             sass_binary_site=https://npm.taobao.org/mirrors/node-sass/

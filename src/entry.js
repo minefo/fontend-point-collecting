@@ -23,7 +23,6 @@ import '@/css/view.css';
 
 window.pageCommon = (require('@/commonjs/pageCommon.js')).pageCommon;
 window.requestApi = require('@/commonjs/requestApi').default;
-window.$ = require('jQuery')
 
 Vue.component('breadcrumb',Bread);
 window.vm = new Vue({
