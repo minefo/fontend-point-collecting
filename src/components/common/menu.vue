@@ -85,6 +85,26 @@
                     "action": "/chapter1-section13",
                     "children":[],
                 },
+                {
+                    "labelName": "视频制作",
+                    "action": "/chapter1-section14",
+                    "children":[],
+                },
+                {
+                    "labelName": "ReactNative学习",
+                    "action": "/chapter1-section15",
+                    "children":[],
+                },
+                {
+                    "labelName": "公司框架研究",
+                    "action": "/chapter1-section16",
+                    "children":[],
+                },
+                {
+                    "labelName": "Python",
+                    "action": "/chapter1-section17",
+                    "children":[],
+                },
             ]
         },
         {

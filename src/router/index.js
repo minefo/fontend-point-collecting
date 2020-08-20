@@ -124,6 +124,35 @@ export default new Router({
                         require(['@/components/chapter1/section13'], resolve);
                     },
                 },//第13节
+                {
+                    path: '/chapter1-section14',
+                    name:"Electron",
+                    component: function (resolve) {
+                        require(['@/components/chapter1/section14'], resolve);
+                    },
+                },//第14节
+                {
+                    path: '/chapter1-section15',
+                    name:"Electron",
+                    component: function (resolve) {
+                        require(['@/components/chapter1/section15'], resolve);
+                    },
+                },//第15节
+                {
+                    path: '/chapter1-section16',
+                    name:"公司框架研究",
+                    component: function (resolve) {
+                        require(['@/components/chapter1/section16'], resolve);
+                    },
+                },//第16节
+                {
+                    path: '/chapter1-section17',
+                    name:"Python",
+                    component: function (resolve) {
+                        require(['@/components/chapter1/section17'], resolve);
+                    },
+                },//第17节
+
 
             ]
         }, //第一章

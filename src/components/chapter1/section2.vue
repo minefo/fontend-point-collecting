@@ -1,7 +1,6 @@
 <template>
     <div class="inner-container" v-else>
      <breadcrumb :current-router="$route"></breadcrumb>
-
         <div class="segment-wraper">
             <h1 class="segment-title">触摸板使用技巧</h1>
             <div class="segment-content">
@@ -12,11 +11,11 @@
                     常用的快捷键:<br/>
                     1.用四根手指向上轻扫，可查看所有窗口。
                     2.查看隐藏文件快捷键 Command + Shift + .
-                    3不想在chrome里使用双指前进后退页面的功能
+                    3.不想在chrome里使用双指前进后退页面的功能
                     命令行下执行 然后重启浏览器
                     defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool FALSE
-
-
+                    4.mac 操作介绍
+                    http://www.360doc.com/content/18/1121/10/27492377_796259195.shtml
                 </p>
             </div>
         </div>
@@ -31,6 +30,7 @@
                     常用的快捷键:<br/>
                     1.快捷键control+command+1自动排列<br/>
                     2.Command-Tab	切换应用：在打开的应用中切换到下一个最近使用的应用。
+                    3. 复制后粘贴的时候用 option+command+v 就剪切了！
                 </p>
             </div>
         </div>

@@ -195,6 +195,9 @@ console.log("text.textContent",text.textContent)
             //replaceData count
             //substringData  count 提取内容，文本的节点内容不改变
 
+            跨域情况和9种解决办法
+            https://juejin.im/post/5d1ecb96f265da1b6d404433
+
         </div></div>
         <div class="segment-wraper"><h1 class="segment-title">DOM操作技术</h1><div class="segment-content">
             1.动态加载js代码块

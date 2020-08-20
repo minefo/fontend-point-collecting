@@ -165,6 +165,8 @@
                </textarea>
             16.正则表达式可以被用于RegExp的exec和test方法以及 String的match、replace、search和split方法,也就是总共6个地方会用到
                I.search返回索引从0开始，没有找到返回-1 ie已经其他浏览器
+
+            17.验证必输输入数字 var t=/^0$|^[1-9]+\d+$|^0\.\d+$/ig;t.test('1')
         </div>
         </div>
 

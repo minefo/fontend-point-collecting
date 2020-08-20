@@ -134,6 +134,10 @@
                 3. git remote -v
                 4.推送tag 命令
                   git push --tags
+                5.gitlab上看冲突，直接点进去然后看记录
+                6. 切换跟踪分支  git branch --set-upstream-to=origin/admin/dev/0.0.6 admin/dev/0.0.6
+                7.查找分支提交记录 git log  --author=haiwang
+
 
             </div>
             </div>

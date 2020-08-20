@@ -118,7 +118,12 @@
         </div></div>
         <div class="segment-wraper"><h1 class="segment-title">macOs安装nginx服务器</h1><div class="segment-content">
             1./usr/local/var/www 安装完后的路径
-            2.
+            2.brew install nginx 安装方式
+            3.配置默认目录 /usr/local/etc/nginx/nginx.conf
+            4.启动服务 nginx
+            5.关闭 nginx -s stop
+            6.查ip ifconfig
+
         </div></div>
 
     </div>
